@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RA-Control Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>RA-Control Simulator</h1>
+
+<canvas id="gridCanvas" width="600" height="600"></canvas>
+
+<div class="controls">
+  <button id="stepBtn">Step</button>
+  <button id="runEpisodeBtn">Run Episode</button>
+  <button id="resetBtn">Reset</button>
+
+  <select id="algoSelect">
+    <option value="qlearning">Q-Learning</option>
+    <option value="sarsa">SARSA</option>
+  </select>
+</div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
